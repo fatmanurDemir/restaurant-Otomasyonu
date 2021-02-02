@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace restaurant
 {
-    public partial class Form1 : Form
+    public partial class frmMusteriler : Form
     {
-        public Form1()
+        public frmMusteriler()
         {
             InitializeComponent();
+        }
+
+        private void frmMusteriler_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
